@@ -1,0 +1,7 @@
+<p>{{ myVariable }}</p>
+
+<!-- $event is a special Angular syntax placeholder for the actual event that takes place -->
+<!-- so whenever the input event occurs, it is passed in as an argument to the onInputChange function -->
+<input type="text" (input)="onInputChange($event)" />
+
+<button (click)="alertMe()">Click me!</button>

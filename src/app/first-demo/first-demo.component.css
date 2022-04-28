@@ -1,0 +1,5 @@
+/* :host is a special selector that applies the styling for a component directly to the tag itself */
+:host {
+  display: block;
+  border: 5px solid green;
+}
